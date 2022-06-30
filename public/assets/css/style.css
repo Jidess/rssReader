@@ -1,0 +1,73 @@
+body {
+    /* background-image: url("../img/wave2.jpg") !important; */
+    background-repeat: no-repeat;
+    background-color: rgb(116, 208, 222); 
+    background-size: cover;
+    height: 100% !important; 
+}
+
+#logo {
+    width: 34px;
+    /* filter: invert(1); */
+}
+
+.backgroundColorWhite {
+    background-color: white !important;
+}
+
+main {
+    height: 70vh;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    color: #fdb31d !important;
+    font-weight: 600 !important;
+    width: 100px;
+    align-self: center;
+    border: 1px solid #fdb31d !important;
+    /* border: none !important; */
+    vertical-align: middle !important;
+}
+
+.buttonColor {
+    background-color: white;
+}
+
+.buttonColor:hover {
+    background-color: #fdb31d;
+    color: white !important;
+}
+
+.centered {
+    margin: auto !important;
+}
+
+.glassMorph {
+    background: rgba(255, 255, 255, 0.842);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.form-check-input:hover {
+    background-color: #fdb31d;
+    border: none;
+}
+
+.form-check-input:checked {
+    background-color: #fdb31d;
+    border: none;
+}
+
+.grow:hover {
+    scale: 1.2;
+}
