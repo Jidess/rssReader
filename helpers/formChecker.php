@@ -227,15 +227,33 @@
             } else return '';
         } 
 
-        /**
+            /**
              * fonction qui vérifie le nombre de checkbox checked (il faut quand même choisir le nombre de box checked)
              * @return 'checked' ou 'error'
              */
             public function howMuchChecked() {
                 if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST["checkBox"])){
                     $checkedElements = $_POST["checkBox"]; 
+                    $values = [];
                     if(count($checkedElements) == 3){
-                        return 'OK';
+                        foreach ($checkedElements as $value) {
+                            array_push($values, $value);
+                        }
+                        setcookie('user_sujet_choice', serialize($values));
+                        
+                    } else return 'ERROR';
+                }
+            }
+
+            /**
+             * fonction qui vérifie le nombre de checkbox checked (il faut quand même choisir le nombre de box checked)
+             * @return 'checked' ou 'error'
+             */
+            public function radioChoice() {
+                if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST["inlineRadio"])){
+                    $postLength = $_POST["inlineRadio"]; 
+                    if($postLength == 3 || $postLength == 6 || $postLength == 9 ){
+                        setcookie('user_radio_choice', $postLength);
                     } else return 'ERROR';
                 }
             }

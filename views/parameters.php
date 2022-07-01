@@ -5,7 +5,7 @@
                 <input class="form-check-input" type="checkbox" id="modeChoice">
                 <label class="form-check-label" for="modeChoice">Thème</label>
             </div>
-            <form class=" d-flex flex-column mx-auto" action="" method="POST">
+            <form class="d-flex flex-column mx-auto" action="" method="POST">
                 <p class="mt-4 mb-4">Sélectionnez 3 flux RSS pour les afficher sur votre page d'accueil :</p>
                 <div class="d-grid gap-3">
                     <?php foreach (CHECKBOXVALUES as $key => $value) {?>
@@ -15,6 +15,21 @@
                         </div>
                     <?php } ?>
                 </div>
+                <p class="mt-4 mb-4">Choisissez le nombre d'articles a afficher par sujet :</p>
+                    <div class="d-flex">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio1" value="3">
+                            <label class="form-check-label" for="inlineRadio">3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio2" value="6">
+                            <label class="form-check-label" for="inlineRadio">6</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio3" value="9">
+                            <label class="form-check-label" for="inlineRadio">9</label>
+                        </div>
+                    </div>
                 <button class="btn buttonColor mt-4 mb-4" type="submit">VALIDER</button>
             </form>
         </div>
