@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="public/assets/css/style.css" rel="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="public/assets/css/style.css" rel="style.css">
     <title>404 page</title>
 </head>
 
-<body>
-    <div class="container">
-        <div class="row ">
+<body class="vh-100 d-flex bg-danger">
+    <div class="container align-self-center">
+        <div class="row">
             <div class="col-12 col-md-6 mx-auto">
-                <h1 class="error text-center">4 <img src="public/assets/img/unknown.png" alt="">4</h1>
-                <p class="text-center">La page à laquelle vous souhaitez accédée n'existe pas</p>
+                <h1 class="text-center">4 <img id="img" src="public/assets/img/Thierry.png" alt="">4</h1>
+                <div class="border border-dark p-3 bg-dark">
+                    <p class="text-center text-light">La page à laquelle vous souhaitez accéder n'existe pas</p>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-danger">Page d'accueil</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
