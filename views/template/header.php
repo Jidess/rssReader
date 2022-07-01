@@ -22,15 +22,15 @@
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">
-                                <?=$sujet1 ?></a>
+                                <?=$sujet1 ?? ''?></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                            <?=$sujet2 ?></a>
+                            <?=$sujet2 ?? ''?></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                            <?=$sujet3 ?></a>
+                            <?=$sujet3 ?? ''?></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
