@@ -21,15 +21,15 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
+                            <a class="nav-link active" aria-current="page" href="../../controllers/pagesCtrl.php?<?='theme='.$sujet1?>">
                                 <?=$sujet1 ?? ''?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="../../controllers/pagesCtrl.php?<?='theme='.$sujet2?>">
                             <?=$sujet2 ?? ''?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="../../controllers/pagesCtrl.php?<?='theme='.$sujet3?>">
                             <?=$sujet3 ?? ''?></a>
                         </li>
                         <li class="nav-item">
