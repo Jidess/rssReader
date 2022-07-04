@@ -1,6 +1,6 @@
-<main class="d-flex align-items-center container mt-3 mb-3">
-    <div class="row centered">
-        <div class="col d-flex flex-column glassMorph">
+<main class="d-flex align-items-center justify-content-center container mt-3 mb-3">
+    <div class="row  align-item-center bg-secondary bg-opacity-25">
+        <div class="col d-flex flex-column">
             <div class="form-check mx-auto form-switch mt-3 mb-3">
                 <input class="form-check-input" type="checkbox" id="modeChoice">
                 <label class="form-check-label" for="modeChoice">Thème</label>
@@ -16,7 +16,7 @@
                     <?php } ?>
                 </div>
                 <p class="mt-4 mb-4">Choisissez le nombre d'articles a afficher par sujet :</p>
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-center">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio1" value="3">
                             <label class="form-check-label" for="inlineRadio">3</label>
@@ -30,9 +30,9 @@
                             <label class="form-check-label" for="inlineRadio">9</label>
                         </div>
                     </div>
-                <button class="btn buttonColor mt-4 mb-4" type="submit">VALIDER</button>
+                <button class="btn btn-danger mt-4 mb-4" type="submit">VALIDER</button>
                 <?php if($_COOKIE) { ?>
-                    <a href="../controllers/homeCtrl.php"><button class="btn buttonColor mt-4 mb-4" type="button">ACCUEIL</button></a>
+                    <a class="justify-content-center align-self-center" href="../controllers/homeCtrl.php"><button class="btn btn-danger  mt-4 mb-4 mx-auto" type="button">ACCUEIL</button></a>
                     <?php } ?>
             </form>
         </div>
