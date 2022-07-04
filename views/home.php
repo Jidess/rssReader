@@ -2,6 +2,7 @@
     <div class="row">
         <div class="col-12 col-md-4">
         <?php
+            echo '<li>'.strip_tags($themes[$sujet1]->channel->item->description, '<img>').'</li>';
             echo '<h4>'.$sujet1.'</h4>';
             echo '<ul>';
             for($i = 0; $i < $radioCookie; $i++){
@@ -39,4 +40,3 @@
     </div>
 </div>
 
-<!-- // echo '<li>'.strip_tags($item->description, '<img>').'</li>'; -->

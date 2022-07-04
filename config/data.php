@@ -1,2 +1,2 @@
 <?php
-define ('CHECKBOXVALUES', array('Sécurité', 'Technos', 'PC portables', 'Jeux vidéo', 'Audio', 'Objets connectés', 'Produits', 'Actualités', 'Culture, médias'));
+define ('CHECKBOXVALUES', array('Sécurité', 'Technos', 'PC portables', 'Jeux vidéo', 'Audio', 'Objets connectés', 'Actualités', 'Culture, médias'));

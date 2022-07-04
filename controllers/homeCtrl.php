@@ -5,8 +5,6 @@ require (__DIR__.'/../helpers/formGenerator.php');
 require (__DIR__.'/../config/navUser.php');
 // require (__DIR__.'/../config/data.php');
 
-
-
 if(empty($_COOKIE)){
     header("Location:http://rssreader.localhost/controllers/parametersCtrl.php");
 } else {
@@ -42,7 +40,6 @@ $themes = [
     'Actualités' => $rssActu,
     'Culture, médias' => $rssMedia,
 ];
-
 
 include __DIR__.'/../views/template/header.php';
 include __DIR__.'/../views/home.php';
