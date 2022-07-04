@@ -1,5 +1,4 @@
 <?php
-    
     if(!empty($_COOKIE)){
         $arrayThemeCookies = unserialize($_COOKIE['user_sujet_choice']);
         $sujet1 = $arrayThemeCookies[0];
