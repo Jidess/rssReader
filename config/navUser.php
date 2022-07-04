@@ -5,5 +5,4 @@
         $sujet2 = $arrayThemeCookies[1];
         $sujet3 = $arrayThemeCookies[2];
         $radioCookie = $_COOKIE['user_radio_choice'];
-
     } 

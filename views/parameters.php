@@ -10,7 +10,7 @@
                 <div class="d-grid gap-3">
                     <?php foreach (CHECKBOXVALUES as $key => $value) {?>
                         <div class="form-check custom-control-inline">
-                            <input name="checkBox[]" value="<?=$value?>" class="form-check-input" type="checkbox" id="checkbox<?=$key?>"  <?=$formGenerator->isChecked($value)?>>
+                            <input name="checkBox[]" value="<?=$value?>" class="form-check-input" type="checkbox" id="checkbox<?=$key?>" <?=$formGenerator->isChecked($value)?>>
                             <label class="form-check-label" for="checkBox"><?=$value?></label>
                         </div>
                     <?php } ?>
