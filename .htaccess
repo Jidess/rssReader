@@ -16,3 +16,5 @@ RewriteEngine on
 RewriteRule "home.html"   "/controllers/homeCtrl.php" [L]
 RewriteRule "parameters.html"   "/controllers/parametersCtrl.php" [L]
 RewriteRule "flux-rss.html"   "/controllers/pagesCtrl.php" [L]
+
+ErrorDocument "404" "/404.php"
