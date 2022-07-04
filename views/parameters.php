@@ -19,15 +19,15 @@
                 <p class="mt-4 mb-4">Choisissez le nombre d'articles a afficher par sujet :</p>
                     <div class="d-flex">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio1" value="3"<?=$_COOKIE['user_radio_choice'] == 3 ? "checked" : "" ?>>
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio1" value="3"<?=(isset($_COOKIE['user_radio_choice']) && $_COOKIE['user_radio_choice'] == 3) || !isset($_COOKIE['user_radio_choice'])  ? "checked" : "" ?>>
                             <label class="form-check-label" for="inlineRadio">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio2" value="6"<?=$_COOKIE['user_radio_choice'] == 6 ? "checked" : "" ?>>
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio2" value="6"<?=isset($_COOKIE['user_radio_choice']) && $_COOKIE['user_radio_choice'] == 6 ? "checked" : "" ?>>
                             <label class="form-check-label" for="inlineRadio">6</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio3" value="9"<?=$_COOKIE['user_radio_choice'] == 9 ? "checked" : "" ?>>
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio3" value="9"<?=isset($_COOKIE['user_radio_choice']) && $_COOKIE['user_radio_choice'] == 9 ? "checked" : "" ?>>
                             <label class="form-check-label" for="inlineRadio">9</label>
                         </div>
                     </div>
