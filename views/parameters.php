@@ -1,5 +1,5 @@
 <main class="d-flex align-items-center justify-content-center container mt-3 mb-3">
-    <div class="row  align-item-center bg-secondary bg-opacity-25">
+    <div class="row  align-item-center bg-secondary">
         <div class="col d-flex flex-column">
             <div class="form-check mx-auto form-switch mt-3 mb-3">
                 <input class="form-check-input" type="checkbox" id="modeChoice">

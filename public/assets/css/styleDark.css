@@ -16,3 +16,12 @@ body{
     background-color:  #111827;
     
 }
+
+btn-danger{
+    background-color: #E40613 !important;
+}
+
+.text-center{
+    color: white;
+}
+
