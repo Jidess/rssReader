@@ -20,3 +20,22 @@ ul img{
     background-color: #6c757d5c !important;
 }
 
+
+.btn-danger{
+    background-color: #E40613 !important;
+}
+
+.imgCard{
+    width: 250px;
+    height: 250px;
+}
+
+.cardHome{
+    min-width: 275px;
+    height: 420px;
+}
+img.attachment-full{
+    display: none !important;
+    height: 0px !important;
+    width: 0px !important;
+}
