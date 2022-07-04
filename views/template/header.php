@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-light bg-danger navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img id="logo" src="../../public/assets/img/RSS.svg"></a>
+                <a class="navbar-brand" href="#"><img id="logo" src="../../public/assets/img/youRss.svg"></a>
                 <button class="navbar-toggler focused" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-12">
         <?php
-            echo '<h4>'.$_GET["theme"].'</h4>';
+            echo '<h4 class="text-center">'.$_GET["theme"].'</h4>';
             echo '<ul class="list-group ">';
             for($i = 0; $i < $radioCookie; $i++){
                 $datetime = date_create($themes[$_GET["theme"]]->channel->item[$i]->pubDate);
