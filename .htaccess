@@ -13,4 +13,6 @@ RewriteEngine on
 #--------------------------------------------------
 
 # Article sans numéro de page :
-RewriteRule "parametres.html"   "/controllers/parametersCtrl.php" [L]
+RewriteRule "home.html"   "/controllers/homeCtrl.php" [L]
+RewriteRule "parameters.html"   "/controllers/parametersCtrl.php" [L]
+RewriteRule "flux-rss.html"   "/controllers/pagesCtrl.php" [L]

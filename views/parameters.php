@@ -14,26 +14,27 @@
                             <label class="form-check-label" for="checkBox"><?=$value?></label>
                         </div>
                     <?php } ?>
+                    <?=$error ?? "" ?>
                 </div>
                 <p class="mt-4 mb-4">Choisissez le nombre d'articles a afficher par sujet :</p>
                     <div class="d-flex justify-content-center">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio1" value="3">
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio1" value="3"<?=$_COOKIE['user_radio_choice'] == 3 ? "checked" : "" ?>>
                             <label class="form-check-label" for="inlineRadio">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio2" value="6">
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio2" value="6"<?=$_COOKIE['user_radio_choice'] == 6 ? "checked" : "" ?>>
                             <label class="form-check-label" for="inlineRadio">6</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio3" value="9">
+                            <input class="form-check-input" type="radio" name="inlineRadio" id="inlineRadio3" value="9"<?=$_COOKIE['user_radio_choice'] == 9 ? "checked" : "" ?>>
                             <label class="form-check-label" for="inlineRadio">9</label>
                         </div>
                     </div>
                 <button class="btn btn-danger mt-4 mb-4" type="submit">VALIDER</button>
                 <?php if($_COOKIE) { ?>
-                    <a class="justify-content-center align-self-center" href="../controllers/homeCtrl.php"><button class="btn btn-danger  mt-4 mb-4 mx-auto" type="button">ACCUEIL</button></a>
-                    <?php } ?>
+                    <a href="../controllers/home.html"><button class="btn buttonColor mt-4 mb-4" type="button">ACCUEIL</button></a>
+                <?php } ?>
             </form>
         </div>
     </div>
