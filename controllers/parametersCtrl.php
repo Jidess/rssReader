@@ -16,7 +16,7 @@
             setcookie('user_sujet_choice', serialize($values), time()+60*60*24*30, '/');
             $_COOKIE['user_sujet_choice'] = serialize($values);
             
-        } else return 'ERROR';
+        } else $error = 'Veuillez choisir précisément 3 flux RSS !';
     }
 
     if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST["inlineRadio"])){
@@ -24,7 +24,7 @@
         if($postLength == 3 || $postLength == 6 || $postLength == 9 ){
             setcookie('user_radio_choice', $postLength, time()+60*60*24*30, '/');
             $_COOKIE['user_radio_choice'] = $postLength;
-        } else return 'ERROR';
+            } else echo 'ERROR';
     }
 
     require (__DIR__.'/../config/navUser.php');
