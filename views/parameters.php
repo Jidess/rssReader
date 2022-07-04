@@ -33,7 +33,7 @@
                     </div>
                 <button class="btn btn-danger mt-4 mb-4" type="submit">VALIDER</button>
                 <?php if($_COOKIE) { ?>
-                    <a href="../controllers/home.html"><button class="btn buttonColor mt-4 mb-4" type="button">ACCUEIL</button></a>
+                    <a class="align-self-center" href="../controllers/home.html"><button class="btn btn-danger  mt-4 mb-4" type="button">ACCUEIL</button></a>
                 <?php } ?>
             </form>
         </div>
