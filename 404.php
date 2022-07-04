@@ -18,7 +18,7 @@
                 <div class="border border-dark p-3 bg-dark">
                     <p class="text-center text-light">Cette page n'existe pas</p>
                     <div class="text-center">
-                        <button type="button" class="btnError btn btn-danger">Page d'accueil</button>
+                        <button type="button" class=" btn btn-danger"> <a href="index.php"> Page d'accueil</a></button>
                     </div>
                 </div>
             </div>
