@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row ">
-    <div class="col-12 col-md-4 d-flex flex-column">
+    <div class="col-12 col-lg-4 d-flex flex-column">
         <?php
-            echo '<h4 class="text-center">'.$sujet1.'</h4>';
+            echo '<h4 class="text-center my-3">'.$sujet1.'</h4>';
             echo '<div>';
             for($i = 0; $i < $radioCookie; $i++){
                 
@@ -16,9 +16,9 @@
             echo '</div>';
         ?>
         </div>
-        <div class="col-12 col-md-4 d-flex flex-column">
+        <div class="col-12 col-lg-4 d-flex flex-column">
         <?php
-            echo '<h4 class="text-center">'.$sujet2.'</h4>';
+            echo '<h4 class="text-center my-3">'.$sujet2.'</h4>';
             echo '<div>';
             for($i = 0; $i < $radioCookie; $i++){
                 
@@ -32,9 +32,9 @@
             echo '</div>';
         ?>
         </div>
-        <div class="col-12 col-md-4 d-flex flex-column">
+        <div class="col-12 col-lg-4 d-flex flex-column">
         <?php
-            echo '<h4 class="text-center">'.$sujet3.'</h4>';
+            echo '<h4 class="text-center my-3">'.$sujet3.'</h4>';
             echo '<div>';
             for($i = 0; $i < $radioCookie; $i++){
                 

@@ -29,3 +29,17 @@ btn-danger{
     width: 250px;
     height: 250px;
 }
+
+.cardHome{
+    min-width: 275px;
+    height: 420px;
+    color: rgb(255, 255, 255)!important;
+}
+img.attachment-full{
+    display: none !important;
+    height: 0px !important;
+    width: 0px !important;
+}
+.card-body{
+    color: rgb(255, 255, 255)!important;
+}
