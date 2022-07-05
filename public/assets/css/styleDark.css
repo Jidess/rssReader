@@ -43,3 +43,25 @@ img.attachment-full{
 .card-body{
     color: rgb(255, 255, 255)!important;
 }
+
+.btn-danger:hover {
+    background-color: white !important;
+    color: #E40613 !important;
+}
+
+
+.rounded {
+    border-radius: 4px !important;
+}
+.form-check-input:hover {
+    background-color: #b7b7b7;
+    border: none;
+}
+.form-check-input:focus, .focused{
+    border: none !important;
+    box-shadow: unset !important;
+}
+.form-check-input:checked {
+    background-color: #b51717 !important;
+    border: none;
+}
