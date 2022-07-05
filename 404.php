@@ -14,11 +14,11 @@
     <div class="container align-self-center">
         <div class="row">
             <div class="col-12 col-md-6 mx-auto">
-                <h1 class="text-center">4 <img class="m-4" id="thierry" src="public/assets/img/Thierry.png" alt="">4</h1>
+                <h1 class="text-center">4 <img class="m-4" id="thierry" src="../public/assets/img/Thierry.png" alt="">4</h1>
                 <div class="border border-dark p-3 bg-dark">
                     <p class="text-center text-light">Cette page n'existe pas</p>
                     <div class="text-center">
-                        <button type="button" class=" btn btn-danger"> <a href="index.php"> Page d'accueil</a></button>
+                        <button type="button" class=" btn btn-danger"> <a href="../index.php"> Page d'accueil</a></button>
                     </div>
                 </div>
             </div>
