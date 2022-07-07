@@ -1,2 +1,2 @@
 <?php
-include __DIR__.'/controllers/homeCtrl.php';
+include(__DIR__.'/controllers/homeCtrl.php');
